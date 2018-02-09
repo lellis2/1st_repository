@@ -1,0 +1,6 @@
+echo "# 1st_repository" >> DONOTREADME.md
+git init
+git add DONOTREADME.md
+git commit -m "first commit, but maybe the last one"
+git remote add origin https://github.com/lellis2/1st_repository.git
+git push -u origin master
